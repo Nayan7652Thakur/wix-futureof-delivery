@@ -50,17 +50,16 @@ const Company = () => {
                     <p className='text-md'>Capital</p>
                 </div>
             </div>
-            <div className='w-full'>
-  <video 
-    autoPlay 
-    muted 
-    loop 
-    className="w-full h-auto object-cover"
-  >
-    <source src={video.video2} type="video/mp4" />
-  </video>
-</div>
-
+            <div className='w-full h-[300px] md:h-[500px] lg:h-[600px] overflow-hidden'>
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    className="w-full h-full object-cover"
+                >
+                    <source src={video.video2} type="video/mp4" />
+                </video>
+            </div>
         </div>
     )
 }
