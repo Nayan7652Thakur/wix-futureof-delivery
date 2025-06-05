@@ -23,17 +23,17 @@ const Collaboration = () => {
 
 
             <div className='flex flex-col lg:items-end lg:mr-10'>
-                <div className='grid grid-cols-2 p-10 gap-4 sm:gap-8 w-[980px]'>
-                    <div className='bg-white rounded-lg'>
+                <div className='grid grid-cols-2 p-10 gap-4 sm:gap-8 lg:w-[980px]'>
+                    <div className='bg-white rounded-xl p-1'>
                         <img src={partnersImage.partnersImage1} alt="" />
                     </div>
-                    <div className='bg-white rounded-lg'>
+                    <div className='bg-white rounded-xl p-1'>
                         <img src={partnersImage.partnersImage2} alt=""/>
                     </div>
-                    <div className='bg-white rounded-lg'>
+                    <div className='bg-white rounded-xl p-1'>
                         <img src={partnersImage.partnersImage3} alt=""/>
                     </div>
-                    <div className='bg-white rounded-lg'>
+                    <div className='bg-white rounded-xl p-1'>
                         <img src={partnersImage.partnersImage4} alt=""/>
                     </div>
                 </div>
