@@ -23,143 +23,171 @@ const OurProduct = () => {
 
 
             {/* Bottom */}
-            <div className='mx-2 sticky top-0 md:mx-12 bg-white shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row gap-10'>
 
-                {/* Vertical Line on Left */}
-                <div className="hidden lg:flex flex-col justify-center pr-6">
-                    <div className="relative w-px h-full bg-gray-300">
-                        <div className="absolute top-0 left-0 w-full h-[40%] bg-black" />
-                    </div>
-                </div>
+            <div className='flex flex-col gap-4'>
+                <div className='mx-2 sticky top-0 md:mx-12 bg-white shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row gap-10'>
 
-                {/* Left Info */}
-                <div className='lg:w-1/2 pl-10'>
-                    <p className='text-xl mb-6 font-semibold'>OPTIMIZED BATTERY EFFICIENCY</p>
-
-                    <div className="mb-6">
-                        <div className='flex gap-4 text-6xl font-light mb-2'>
-                            <p>223</p>
-                            <span className="text-sm mt-4">Mi Electric Range</span>
-                        </div>
-
-                        <hr className="my-4 border-gray-300" />
-
-                        <div className='flex gap-4 text-6xl font-light'>
-                            <p>30</p>
-                            <span className="text-sm mt-4">Min to Fully Charge</span>
+                    {/* Vertical Line on Left */}
+                    <div className="hidden lg:flex flex-col justify-center pl-4">
+                        <div className="relative w-px h-full bg-gray-300">
+                            <div className="absolute top-0 left-0 w-full h-[40%] bg-black" />
                         </div>
                     </div>
 
-                    <p className='text-sm leading-relaxed mb-8'>
-                        This is a space to share more about the business: who's behind it, what it does and what this site has to offer...
-                    </p>
+                    {/* Left Info — Centered vertically */}
+                    <div className='lg:w-1/2 flex flex-col justify-center pl-10'>
+                        <p className='text-[24px] mb-6'>OPTIMIZED BATTERY EFFICIENCY</p>
 
-                    <button className='text-sm border-b border-black pb-1 hover:opacity-70'>READ MORE →</button>
+                        <div className="mb-6">
+                            <div className='flex gap-4 text-6xl mb-2'>
+                                <p className=''>223 Mi</p>
+                                <span className="text-lg mt-4">Electric Range</span>
+                            </div>
+
+                            <hr className="my-4 border-gray-300" />
+
+                            <div className='flex gap-4 text-6xl'>
+                                <p>30 Min</p>
+                                <span className="text-sm mt-4"> Fully Charge</span>
+                            </div>
+                        </div>
+
+                        <p className='text-md leading-relaxed mb-11'>
+                            This is a space to share more about the business: who's behind it, what it does and what this site has to offer. It’s an opportunity to tell the story behind the business or describe a special service or product it offers. You can use this section to share the company history or highlight a particular feature that sets it apart from competitors.
+                        </p>
+
+                        <button className="w-[261px] flex justify-between items-center border-b border-black pb-1 hover:opacity-70">
+                            <span>READ MORE</span>
+                            <span>→</span>
+                        </button>
+
+                    </div>
+
+                    {/* Right Image */}
+                    <div className='w-72 lg:w-1/2 flex justify-center items-center'>
+                        <img
+                            src={assets.homeImage2}
+                            className='object-contain'
+                        />
+                    </div>
+
                 </div>
 
-                {/* Right Image */}
-                <div className='w-72 lg:w-1/2 flex justify-center items-center'>
-                    <img
-                        src={assets.homeImage2}
-                        className='object-contain'
-                    />
-                </div>
-
-            </div>
 
 
-            {/* 2nd */}
+                {/* 2nd */}
 
-            <div className='mx-2 md:mx-12 sticky top-0 bg-white shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row gap-10'>
+                <div className='mx-2 md:mx-12 sticky top-0 bg-white shadow-2xl rounded-xl p-10 flex flex-col-reverse lg:flex-row gap-10'>
 
-                {/* Vertical Line on Left */}
-                <div className="hidden lg:flex flex-col justify-center pr-6">
-                    <div className="relative w-px h-full bg-gray-300">
-                        <div className="absolute top-0 left-0 w-full h-[40%] bg-black" />
+                    {/* Image Left */}
+                    <div className='lg:w-1/2 flex justify-center items-center'>
+                        <img
+                            src={assets.homeImage3}
+                            alt="Product"
+                            className='object-contain w-[90%]'
+                        />
+                    </div>
+
+                    {/* Content + Vertical Line */}
+                    <div className='lg:w-1/2 flex justify-between items-center pl-10'>
+
+                        {/* Content */}
+                        <div className='flex flex-col justify-center'>
+                            <p className='text-xl mb-6'>COMPACT</p>
+
+                            <div className="mb-6">
+                                <div className='flex gap-4 text-6xl font-light mb-2'>
+                                    <p>50 kg</p>
+                                    <span className="text-xl mt-4">Payload Capacity
+
+                                    </span>
+                                </div>
+
+                                <hr className="my-4 border-gray-300" />
+
+                                <div className='flex gap-4 text-6xl font-light'>
+                                    <p className=''>60 Liter</p>
+                                    <span className="text-xl mt-4">Storage Compartment</span>
+                                </div>
+                            </div>
+
+                            <p className='text-md leading-relaxed mb-11 w-[501px]'>
+                                This is a space to share more about the business: who's behind it, what it does and what this site has to offer. It’s an opportunity to tell the story behind the business or describe a special service or product it offers. You can use this section to share the company history or highlight a particular feature that sets it apart from competitors.
+                            </p>
+
+                            <button className="w-[261px] flex justify-between items-center border-b border-black pb-1 hover:opacity-70">
+                                <span>READ MORE</span>
+                                <span>→</span>
+                            </button>
+                        </div>
+
+                        {/* Vertical Line Right Corner */}
+                        <div className="hidden lg:flex items-center pr-4 h-full">
+                            <div className="w-px h-full bg-gray-300 relative">
+                                <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-full h-[40%] bg-black" />
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 
-                {/* Left Info */}
-                <div className='lg:w-1/2 pl-10'>
-                    <p className='text-xl mb-6 font-semibold'>OPTIMIZED BATTERY EFFICIENCY</p>
 
-                    <div className="mb-6">
-                        <div className='flex gap-4 text-6xl font-light mb-2'>
-                            <p>223</p>
-                            <span className="text-sm mt-4">Mi Electric Range</span>
-                        </div>
 
-                        <hr className="my-4 border-gray-300" />
 
-                        <div className='flex gap-4 text-6xl font-light'>
-                            <p>30</p>
-                            <span className="text-sm mt-4">Min to Fully Charge</span>
+
+                {/* 3rd  */}
+
+                <div className='mx-2 sticky top-0 md:mx-12 bg-white shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row gap-10'>
+
+                    {/* Vertical Line on Left */}
+                    <div className="hidden lg:flex flex-col justify-center pl-4">
+                        <div className="relative w-px h-full bg-gray-300">
+                            <div className="absolute bottom-0 left-0 w-full h-[40%] bg-black" />
                         </div>
                     </div>
 
-                    <p className='text-sm leading-relaxed mb-8'>
-                        This is a space to share more about the business: who's behind it, what it does and what this site has to offer...
-                    </p>
 
-                    <button className='text-sm border-b border-black pb-1 hover:opacity-70'>READ MORE →</button>
-                </div>
+                    {/* Left Info — Centered vertically */}
+                    <div className='lg:w-1/2 flex flex-col justify-center pl-10'>
+                        <p className='text-[24px] mb-6'>ADVANCED SENSOR TECHNOLOGY</p>
 
-                {/* Right Image */}
-                <div className='lg:w-1/2 flex justify-center items-center'>
-                    <img
-                        src={assets.homeImage2}
-                        alt="Product"
-                        className='object-contain'
-                    />
-                </div>
+                        <div className="mb-6">
+                            <div className='flex gap-4 text-6xl mb-2'>
+                                <p className=''>360°</p>
+                                <span className="text-lg mt-4">Sensors coverage</span>
+                            </div>
 
-            </div>
+                            <hr className="my-4 border-gray-300" />
 
-            {/* 3rd  */}
+                            <div className='flex gap-4 text-6xl'>
+                                <p>85%
 
-            <div className='mx-2 md:mx-12 sticky top-0 bg-white shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row gap-10'>
-
-                {/* Vertical Line on Left */}
-                <div className="hidden lg:flex flex-col justify-center pr-6">
-                    <div className="relative w-px h-full bg-gray-300">
-                        <div className="absolute top-0 left-0 w-full h-[40%] bg-black" />
-                    </div>
-                </div>
-
-                {/* Left Info */}
-                <div className='lg:w-1/2 pl-10'>
-                    <p className='text-xl mb-6 font-semibold'>OPTIMIZED BATTERY EFFICIENCY</p>
-
-                    <div className="mb-6">
-                        <div className='flex gap-4 text-6xl font-light mb-2'>
-                            <p>223</p>
-                            <span className="text-sm mt-4">Mi Electric Range</span>
+                                </p>
+                                <span className="text-sm mt-4">Improved Reaction Time</span>
+                            </div>
                         </div>
 
-                        <hr className="my-4 border-gray-300" />
+                        <p className='text-md leading-relaxed mb-11 w-[501px]'>
+                            This is a space to share more about the business: who's behind it, what it does and what this site has to offer. It’s an opportunity to tell the story behind the business or describe a special service or product it offers. You can use this section to share the company history or highlight a particular feature that sets it apart from competitors.
+                        </p>
 
-                        <div className='flex gap-4 text-6xl font-light'>
-                            <p>30</p>
-                            <span className="text-sm mt-4">Min to Fully Charge</span>
-                        </div>
+                        <button className="w-[261px] flex justify-between items-center border-b border-black pb-1 hover:opacity-70">
+                            <span>READ MORE</span>
+                            <span>→</span>
+                        </button>
+
                     </div>
 
-                    <p className='text-sm leading-relaxed mb-8'>
-                        This is a space to share more about the business: who's behind it, what it does and what this site has to offer...
-                    </p>
+                    {/* Right Image */}
+                    <div className='w-72 lg:w-1/2 flex justify-center items-center'>
+                        <img
+                            src={assets.homeImage4}
+                            className='object-contain'
+                        />
+                    </div>
 
-                    <button className='text-sm border-b border-black pb-1 hover:opacity-70'>READ MORE →</button>
                 </div>
-
-                {/* Right Image */}
-                <div className='lg:w-1/2 flex justify-center items-center'>
-                    <img
-                        src={assets.homeImage2}
-                        alt="Product"
-                        className='object-contain'
-                    />
-                </div>
-
             </div>
 
         </div>
