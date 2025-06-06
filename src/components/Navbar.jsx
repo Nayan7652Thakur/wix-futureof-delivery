@@ -35,11 +35,11 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 overflow-hidden ${
         show ? 'translate-y-0' : '-translate-y-full'
       } ${scrolled ? 'bg-black' : 'bg-transparent'}`}
     >
-      <div className="px-7 pt-8 pb-8 flex justify-between items-center w-full px-18 py-4">
+      <div className="px-7 pt-8 pb-8 flex justify-between items-center px-18 py-4">
         {/* Left */}
         <div>
           <p className="text-xl text-white font-bold">Volaso</p>

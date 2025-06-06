@@ -8,7 +8,6 @@ html,
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
    overflow-x: hidden;
-  font-style: normal;
   scroll-behavior: smooth;
 }
 
@@ -39,49 +38,3 @@ body {
       rgba(0, 0, 0, 0) 100%);
 }
 
-
-
-/* Wrapper gives total scroll height */
-.sticky-wrapper {
-  height: 600vh;
-  position: relative;
-  font-family: sans-serif;
-}
-
-/* All sticky cards */
-.sticky-card {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  font-weight: bold;
-  color: white;
-  z-index: 1;
-}
-
-/* Different background colors */
-.red {
-  background-color: #b91c1c;
-  z-index: 40;
-}
-.green {
-  background-color: #059669;
-  z-index: 30;
-}
-.blue {
-  background-color: #2563eb;
-  z-index: 20;
-}
-.yellow {
-  background-color: #eab308;
-  color: black;
-  z-index: 10;
-}
-
-/* Spacer between cards */
-.spacer {
-  height: 100vh;
-}

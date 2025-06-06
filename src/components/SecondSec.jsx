@@ -5,7 +5,7 @@ const SecondSec = () => {
     return (
         <div className="bg-black pt-14 sm:pt-20 md:pt-52 overflow-hidden text-white">
             {/* Top */}
-            <div className="pl-8 md:pl-10 lg:pl-24 flex gap-14 flex-col">
+            <div className="pl-6 md:pl-10 lg:pl-24 flex gap-7 lg:gap-14 flex-col">
                 {/* Line */}
                 <div className="w-full h-[2px] flex rounded-full overflow-hidden">
                     <div className="w-[10%] bg-white" />
@@ -21,7 +21,7 @@ const SecondSec = () => {
 
             {/* Bottom */}
             {/* Bottom */}
-            <div className="mt-20 sm:mt-20 flex flex-col lg:flex-row justify-between gap-12">
+            <div className="mt-14 md:mt-20 sm:mt-20 flex flex-col lg:flex-row justify-between gap-12">
                 {/* Left */}
                 <div className="flex flex-col md:justify-end md:pl-12 md:items-end">
                     <p className="text-md leading-relaxed lg:mt-40 ml-8 md:ml-0 md:w-[380px] md:mr-14 lg:mr-0 lg:mb-14 lg:ml-16 xl:ml-32">

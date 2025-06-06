@@ -10,7 +10,7 @@ const WhyVolaso = () => {
           <div className="w-[82%] bg-gray-500" />
         </div>
         <p className='text-base'>WHY VOLASO</p>
-        <h1 className='text-7xl w-10/12'>A Different Approach, Using a New Method of Manufacturing</h1>
+        <h1 className='text-4xl  lg:text-7xl w-10/12'>A Different Approach, Using a New Method of Manufacturing</h1>
         <div className='flex flex-col lg:items-end mb-5'>
           <div>
             

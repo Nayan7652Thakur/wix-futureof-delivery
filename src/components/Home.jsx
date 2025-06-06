@@ -5,6 +5,7 @@ import OurProduct from './OurProduct'
 import WhyVolaso from './WhyVolaso'
 import Company from './Company'
 import Collaboration from './Collaboration'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <WhyVolaso />
         <Company />
         <Collaboration />
+        <Footer />
     </div>
   )
 }
