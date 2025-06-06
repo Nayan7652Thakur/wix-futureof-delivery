@@ -2,31 +2,31 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="overflow-y-hidden mt-32">
-      <main className="ml-24">
-        <h1 className='text-4xl w-3/4 lg:text-7xl'>Be the First to Receive the Latest News From Volaso. </h1>
-        <div className='mt-14 lg:pr-28 w-full lg:pl-7'>
-          <label>Email *</label>
-          <input type="text" className='w-full border-b border-gray-500' />
-          <div className='flex flex-col lg:flex-row mt-8'>
-            <div className='lg:w-1/2 mt-4 lg:mt-0'>
+    <div className="overflow-y-hidden mt-16 lg:mt-32">
+      <main className="ml-6 lg:ml-24">
+        <h1 className='text-3xl w-72 lg:w-3/4 lg:text-7xl'>Be the First to Receive the Latest News From Volaso. </h1>
+        <div className='mt-14 lg:pr-28 mr-12 lg:pl-7'>
+          <label className='text-gray-500'>Email *</label>
+          <input type="text" className='w-full border-b border-gray-500 mt-7 mr-9' />
+          <div className='flex flex-col lg:flex-row '>
+            <div className='lg:w-1/2 mt-7'>
               <input type="checkbox" />
-              <span>  Yes, subscribe me to your newsletter.*</span>
+              <span className='text-xs md:text-md'> Yes, subscribe me to your newsletter.*</span>
             </div>
-            <button className='bg-black text-white border hover:text-black hover:border-black hover:bg-white py-2 w-full rounded-full'>SUBSCRIBE</button>
+            <button className='bg-black text-white border hover:text-black hover:border-black hover:bg-white py-2 mt-2 w-full rounded-full'>SUBSCRIBE</button>
           </div>
         </div>
 
 
         {/* footer  */}
-        <div className='flex flex-col gap-56 lg:flex-row mt-10 lg:mt-40'>
+        <div className='flex flex-col gap-12 lg:gap-56 lg:flex-row mt-10 lg:mt-40'>
           {/* name */}
           <div>
             <h2>Volaso</h2>
           </div>
           <div className='w-full flex flex-col'>
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
-              <div>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8'>
+              <div className='mb-10 md:mb-0'>
                 <h3>COMPANY</h3>
                 <li className='list-none text-gray-500'>Technology</li>
                 <li className='list-none text-gray-500'>About</li>
