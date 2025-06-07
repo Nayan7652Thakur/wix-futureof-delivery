@@ -5,7 +5,7 @@ const Collaboration = () => {
     return (
         <div className="bg-subtle-gradient relative mt-16 lg:pt-52 overflow-hidden text-black">
             {/* Top */}
-            <div className="pl-6 lg:pl-24 mb-12 flex gap-14 flex-col">
+            <div className="pl-6 md:pl-10 lg:pl-24 mb-12 flex gap-14 flex-col">
                 {/* Line */}
                 <div className="w-full h-[2px] flex rounded-full overflow-hidden">
                     <div className="w-[65%] bg-black" />
@@ -16,7 +16,7 @@ const Collaboration = () => {
                     COLLABORATION
                 </p>
 
-                <h1 className="text-4xl md:text-[82px] font-extralight leading-tight">
+                <h1 className="text-4xl md:text-6xl font-extralight leading-tight">
                     Our Industry Partners
                 </h1>
             </div>

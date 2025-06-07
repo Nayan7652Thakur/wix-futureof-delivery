@@ -5,7 +5,7 @@ const OurProduct = () => {
     return (
         <div className="bg-subtle-gradient relative mt-20 lg:mt-14 lg:pt-52 overflow-hidden text-black">
             {/* Top */}
-            <div className="ml-6 lg:pl-24 mb-12 flex gap-7 lg:gap-14 flex-col">
+            <div className="ml-6 sm:ml-10 lg:pl-5 mb-12 flex gap-7 lg:gap-14 flex-col">
                 {/* Line */}
                 <div className="w-full h-[2px] flex rounded-full overflow-hidden">
                     <div className="w-[10%] bg-black" />
@@ -16,7 +16,7 @@ const OurProduct = () => {
                     OUR PRODUCT
                 </p>
 
-                <h1 className="text-4xl md:text-6xl">
+                <h1 className="text-4xl sm:text-7xl lg:text-6xl">
                     Fully Autonomous,
                     Uncompromisingly Sustainable
                 </h1>
@@ -40,14 +40,14 @@ const OurProduct = () => {
 
                             <div className="mb-6">
                                 <div className='flex gap-4 mb-2'>
-                                    <p className='text-4xl sm:text-6xl'>223 Mi</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>223 Mi</p>
                                     <span className="text-lg mt-4">Electric Range</span>
                                 </div>
 
                                 <hr className="my-4 border-gray-300" />
 
                                 <div className='flex gap-4 '>
-                                    <p className='text-4xl sm:text-6xl'>30 Min</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>30 Min</p>
                                     <span className="text-sm mt-4"> Fully Charge</span>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const OurProduct = () => {
                                 This is a space to share more about the business: who's behind it, what it does and what this site has to offer. It’s an opportunity to tell the story behind the business or describe a special service or product it offers. You can use this section to share the company history or highlight a particular feature that sets it apart from competitors.
                             </p>
 
-                            <button className="w-40 md:w-[261px] flex justify-between items-center border-b border-black pb-1 hover:opacity-70">
+                            <button className="w-40 md:w-[261px] lg:w-[180px] flex justify-between items-center border-b border-black pb-1 hover:opacity-70">
                                 <span>READ MORE</span>
                                 <span>→</span>
                             </button>
@@ -89,14 +89,14 @@ const OurProduct = () => {
 
                             <div className="mb-6">
                                 <div className='flex gap-4 mb-2'>
-                                    <p className='text-4xl sm:text-6xl'>50 Kg</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>50 Kg</p>
                                     <span className="text-lg mt-4">Payload Capacity</span>
                                 </div>
 
                                 <hr className="my-4 border-gray-300" />
 
                                 <div className='flex gap-4 '>
-                                    <p className='text-4xl sm:text-6xl'>60 Liter</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>60 Liter</p>
                                     <span className="text-sm mt-4"> Storage Compartment</span>
                                 </div>
                             </div>
@@ -141,14 +141,14 @@ const OurProduct = () => {
 
                             <div className="mb-6">
                                 <div className='flex gap-4 mb-2'>
-                                    <p className='text-4xl sm:text-6xl'>360°</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>360°</p>
                                     <span className="text-lg mt-4">Sensors coverage</span>
                                 </div>
 
                                 <hr className="my-4 border-gray-300" />
 
                                 <div className='flex gap-4 '>
-                                    <p className='text-4xl sm:text-6xl'>85%</p>
+                                    <p className='text-4xl sm:text-6xl lg:text-4xl'>85%</p>
                                     <span className="text-sm mt-4">Improved Reaction Time</span>
                                 </div>
                             </div>

@@ -3,13 +3,13 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className="overflow-y-hidden mt-16 lg:mt-32">
-      <main className="ml-6 lg:ml-24">
-        <h1 className='text-3xl w-72 lg:w-3/4 lg:text-7xl'>Be the First to Receive the Latest News From Volaso. </h1>
+      <main className="ml-6 md:ml-10 lg:ml-24">
+        <h1 className='text-3xl w-72 md:w-[625px]  lg:w-3/4 md:text-6xl lg:text-7xl'>Be the First to Receive the Latest News From Volaso. </h1>
         <div className='mt-14 lg:pr-28 mr-12 lg:pl-7'>
           <label className='text-gray-500'>Email *</label>
           <input type="text" className='w-full border-b border-gray-500 mt-7 mr-9' />
-          <div className='flex flex-col lg:flex-row '>
-            <div className='lg:w-1/2 mt-7'>
+          <div className='flex flex-col md:flex-row '>
+            <div className='lg:w-1/2 md:w-2/4 mt-7'>
               <input type="checkbox" />
               <span className='text-xs md:text-md'> Yes, subscribe me to your newsletter.*</span>
             </div>
@@ -25,7 +25,7 @@ const Footer = () => {
             <h2>Volaso</h2>
           </div>
           <div className='w-full flex flex-col'>
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-2 lg:gap-8'>
               <div className='mb-10 md:mb-0'>
                 <h3>COMPANY</h3>
                 <li className='list-none text-gray-500'>Technology</li>

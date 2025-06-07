@@ -39,7 +39,7 @@ const Navbar = () => {
         show ? 'translate-y-0' : '-translate-y-full'
       } ${scrolled ? 'bg-black' : 'bg-transparent'}`}
     >
-      <div className="px-7 pt-8 pb-8 flex justify-between items-center px-18 py-4">
+      <div className="px-7 sm:px-10 lg:px-16 pt-8 pb-8 flex justify-between items-center px-18 py-4">
         {/* Left */}
         <div>
           <p className="text-xl text-white font-bold">Volaso</p>
